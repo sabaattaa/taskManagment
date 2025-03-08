@@ -1,6 +1,6 @@
-<script setup lang="ts">
-import TaskCard from "./components/TaskCard.vue"
-import Home from "./pages/home.vue";
+<script setup >
+import Home from './pages/home.vue';
+
 </script>
 
 <template>
