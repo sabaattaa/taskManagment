@@ -1,0 +1,6 @@
+:root {
+  --p-text: #67647f;
+}
+.red{
+  border: 1px solid red !important;
+}
