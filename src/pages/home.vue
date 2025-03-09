@@ -13,12 +13,12 @@ function toggleModal() {
 }
 
 watch(() => {
-   console.log("Something changed");
+  console.log("Something changed");
 });
 
-watch(()=>{
+watch(() => {
   getTasks();
-  
+
 })
 
 
@@ -26,10 +26,24 @@ watch(()=>{
 </script>
 
 <template>
-  <div style="display: flex; justify-content: space-around; width: 100%;" class="">
+  <div class="col-clas ">
     <Column v-for="(item, index) in columns" :key="index" :status="item.status" @close="toggleModal" />
   </div>
   <TaskModal v-if="addtask" @close="toggleModal" />
 </template>
 
-<style></style>
+<style>
+.col-clas {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+
+}
+
+
+@media screen and (max-width:800px) {
+  .col-clas {
+    flex-direction: column;
+  }
+}
+</style>
