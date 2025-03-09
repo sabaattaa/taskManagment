@@ -1,21 +1,10 @@
-<script setup >
-import Home from './pages/home.vue';
-
+<script setup lang="ts">
+import Home from "./pages/home.vue";
 </script>
 
-<template>
-
-
-<Home />
-
-
-
-<!-- <TaskCard /> -->
-
-
-
+<template> 
+<Home /> 
 </template>
-
 <style scoped>
 .logo {
   height: 6em;

@@ -1,0 +1,1 @@
+{"root":["./vite.config.ts","./src/app.vue","./src/apicalls.ts","./src/main.ts","./src/shim-vue.d.ts","./src/vite-env.d.ts","./src/components/helloworld.vue","./src/components/taskcard.vue","./src/components/column.vue","./src/components/taskmodal.vue","./src/pages/home.vue","./src/utils/card.ts"],"version":"5.8.2"}
